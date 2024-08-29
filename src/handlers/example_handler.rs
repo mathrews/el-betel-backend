@@ -1,6 +1,5 @@
-use core::num;
 
-use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder};
+use actix_web::{HttpResponse, Responder};
 
 use crate::services::example_service::give_a_number;
 
